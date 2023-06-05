@@ -4,38 +4,64 @@
         <title>MHS Forms</title>
     </head>
     <body>
-        <form action="https://example.com/join.php">
+        >
             <p>
                 Username:
-                <input type="text" name="username" size="15" maxlength="30" />
+                <input type="text" name="username" size="15" maxlength="30" 
+                required="required"/>
             </p>
             <p>
                 Password:
-                <input type="password" name="password" size="15" maxlength="20" />
+                <input type="password" name="password" size="15" maxlength="20"
+                required="required" />
             </p>
-            <p>In what ways can we improve our service? Leave suggestions in this box.
-                <textarea name="comments" size="25" cols="30" rows="4" placeholder="Enter your specific suggestions or comments"></textarea>
-                <p>Your favorite music genre:
-                    <br/>
-                    <input type="radio" name="genre" value="rock">
-                    Rock
-                    <input type="radio" name="genre" value="pop">
-                    Pop
-                    <input type="radio" name="genre" value="jazz">
-                    Jazz
-                </p>
-                <p> Music services you obtain and use:
-                    <br/>
-                    <input type="checkbox" name="service" value="iTunes">
-                    iTunes
-                    <input type="checkbox" name="service" value="Last.fm">
-                    Last.fm
-                    <input type="checkbox" name="service" value="Spotify">
-                    Spotify
-                    
+            <p>In what ways can we improve our service? Leave suggestions in this box. <textarea name="comments" size="25" cols="30" rows="4" placeholder="Enter your specific suggestions or comments"></textarea></p>
 
-                </p>
+            <p>
+                Your favorite music genre:
+                <br />
+                <input type="radio" name="genre" value="rock" />
+                Rock
+                <input type="radio" name="genre" value="pop" />
+                Pop
+                <input type="radio" name="genre" value="jazz" />
+                Jazz
+            </p>
+            <p>
+                Music services you obtain and use:
+                <br />
+                <input type="checkbox" name="service" value="iTunes" />
+                iTunes
+                <input type="checkbox" name="service" value="Last.fm" />
+                Last.fm
+                <input type="checkbox" name="service" value="Spotify" />
+                Spotify
+            </p>
+            <p>
+                What type of device do you use to listen to your music the most?
+                <select name="devices">
+                    <option value="iPod">IPod</option>
+                    <option value="radio">Radio</option>
+                    <option value="PC">Computer(Personal Computer)</option>
+                    <option value="IPhone">Phone</option>
+                </select>
+            </p>
+            <p>
+                Upload the sing you prefer in MP3 format into this box.
+                <input type="file" name="user-song"/>
+                <input type="submit" value="Upload"/>
+            </p>
+            <p>
+                Subscribe to our email list:
         
+            <input type="email" name="email"/>
+            <input type="submit" value="Subscribe"/>
+            </p>
+            <p>
+                Last day of classes:
+                <input type="date" name="depart">
+                <input type="submit" value="Submit">
+            </p>
         </form>
     </body>
 </html>
