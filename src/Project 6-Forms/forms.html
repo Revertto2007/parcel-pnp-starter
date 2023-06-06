@@ -2,99 +2,88 @@
 <html>
     <head>
         <title>MHS Forms</title>
-       
-    
     </head>
     <body>
-        <form action="mailto:srangraj@student.mamkschools.org"
-        <h1>MHS Class Input Forms</h1>
-        <hr>
-        <div id="User Information/Demographic Information">
-        <h2>User Information</h2>
-            <p>
-                Firstname:
-                <br>
-                <input type="text" name="firstname" size="15" maxlength="15" 
-                required="required"/>
-            </p>
-            <p>
-                Lastname:
-                <br>
-                <input type="text" name="lastname" size="15" maxlength="15"
-                required="required" />
-            </p>
-           <p>
-                Account Username:
-                <br>
-                <input type="text" name="username" size="15" maxlength="30"
-                required="required"/>
-
-           </p>
-            <p>
-                Account Password:
-                <br>
-                <input type="password" name="password" size="15" maxlength="30"
-                required="required"/>
-
-           </p>
-           <p>
-                Date of Birth(DOB):
-                <br>
-                <input type="date" name="birthdate"
-                required="required"/>
-           </p>
-           </div>
-           <hr>
-           <div id="Class Information and Teacher Input"
-            <h2> Class Information and Teacher Input</h2>
-                <p>What class are you in?
-                    Choose one of the following classes:
-                    <br>
-                <select name="classes">
-                    <option value="Exploring Computer Science">Exploring Computer Science</option>
-                    <option value="Intro to Java Programming">Intro to Java Programming</option>
-                    <option value="AP Computer Science">AP Computer Science</option>
-                    <option value="Collaborative Design Lab">Collaborative Design Lab</option>
-                </select>
+        <form action="mailto:srangraj@student.mamkschools.org">
+            <h1>MHS Class Input Forms</h1>
+            <hr />
+            <div id="User Information/Demographic Information">
+                <h2>User Information</h2>
+                <p>
+                    Firstname:
+                    <br />
+                    <input type="text" name="firstname" size="15" maxlength="15" required="required" />
                 </p>
-                <p>What teacher do you have for the class chosen above?
-                    Choose one of the following teachers:
-                    <br>
-                   <input type="radio" name="teacher" value="Mr. Mannina"/>
-                   Mr .Mannina
-                   <input type="radio" name="teacher" value="Dr. Jadav"/>
-                   Dr .Jadav   
-                   </p>
-                <p>What period do you have this period with the teacher chosen above?
-                    Check all that apply:
-                    <br>
-                    <input type="checkbox" name="period" value="one"/>
+                <p>
+                    Lastname:
+                    <br />
+                    <input type="text" name="lastname" size="15" maxlength="15" required="required" />
+                </p>
+                <p>
+                    Account Username:
+                    <br />
+                    <input type="text" name="username" size="15" maxlength="30" required="required" />
+                </p>
+                <p>
+                    Account Password:
+                    <br />
+                    <input type="password" name="password" size="15" maxlength="30" required="required" />
+                </p>
+                <p>
+                    Date of Birth(DOB):
+                    <br />
+                    <input type="date" name="birthdate" required="required" />
+                </p>
+            </div>
+            <hr />
+            <div id="Class Information and Teacher Input">
+                <h2>Class Information and Teacher Input</h2>
+                <p>
+                    What class are you in? Choose one of the following classes:
+                    <br />
+                    <select name="classes">
+                        <option value="Exploring Computer Science">Exploring Computer Science</option>
+                        <option value="Intro to Java Programming">Intro to Java Programming</option>
+                        <option value="AP Computer Science">AP Computer Science</option>
+                        <option value="Collaborative Design Lab">Collaborative Design Lab</option>
+                    </select>
+                </p>
+                <p>
+                    What teacher do you have for the class chosen above? Choose one of the following teachers:
+                    <br />
+                    <input type="radio" name="teacher" value="Mr. Mannina" />
+                    Mr .Mannina
+                    <input type="radio" name="teacher" value="Dr. Jadav" />
+                    Dr .Jadav
+                </p>
+                <p>
+                    What period do you have this period with the teacher chosen above? Check all that apply:
+                    <br />
+                    <input type="checkbox" name="period" value="one" />
                     1
-                    <input type="checkbox" name="period" value="two"/>
+                    <input type="checkbox" name="period" value="two" />
                     2
-                    <input type="checkbox" name="period" value="three"/>
+                    <input type="checkbox" name="period" value="three" />
                     3
-                    <input type="checkbox" name="period" value="four"/>
+                    <input type="checkbox" name="period" value="four" />
                     4
-                    <input type="checkbox" name="period" value="five"/>
+                    <input type="checkbox" name="period" value="five" />
                     5
-                    <input type="checkbox" name="period" value="six"/>
+                    <input type="checkbox" name="period" value="six" />
                     6
-                    <input type="checkbox" name="period" value="seven"/>
+                    <input type="checkbox" name="period" value="seven" />
                     7
-                    <input type="checkbox" name="period" value="eight"/>
+                    <input type="checkbox" name="period" value="eight" />
                     8
                 </p>
-                <p>What are you most excited for next year?
-                    Any feedback or comments to make your next year experience better?
-                    <textarea name="comments" cols="20" rows="4"
-                     placeholder="Enter your response, feedback, and comments">
-                    </textarea>
-                <input type="submit" value="Subscribe">
+                <p>
+                    What are you most excited for next year? Any feedback or comments to make your next year experience better?
+                    <br />
+                    <textarea name="comments" cols="20" rows="4" placeholder="Enter your response, feedback, and comments"></textarea>
+
+                    <input type="submit" value="Subscribe" />
                 </p>
-           </div>
-
-
+            </div>
         </form>
     </body>
 </html>
