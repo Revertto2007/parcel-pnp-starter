@@ -6,6 +6,7 @@
     
     </head>
     <body>
+        <form action="mailto:srangraj@student.mamkschools.org"
         <h1>MHS Class Input Forms</h1>
         <hr>
         <div id="User Information/Demographic Information">
@@ -44,62 +45,56 @@
            </p>
            </div>
            <hr>
-           <div>
-            <h2> Class Information
+           <div id="Class Information and Teacher Input"
+            <h2> Class Information and Teacher Input</h2>
+                <p>What class are you in?
+                    Choose one of the following classes:
+                    <br>
                 <select name="classes">
                     <option value="Exploring Computer Science">Exploring Computer Science</option>
-                    <option value="Intro To Java Programming">Intro to Java Programming</option>
-                    <option value=""
+                    <option value="Intro to Java Programming">Intro to Java Programming</option>
+                    <option value="AP Computer Science">AP Computer Science</option>
+                    <option value="Collaborative Design Lab">Collaborative Design Lab</option>
                 </select>
-            </h2>
+                </p>
+                <p>What teacher do you have for the class chosen above?
+                    Choose one of the following teachers:
+                    <br>
+                   <input type="radio" name="teacher" value="Mr. Mannina"/>
+                   Mr .Mannina
+                   <input type="radio" name="teacher" value="Dr. Jadav"/>
+                   Dr .Jadav   
+                   </p>
+                <p>What period do you have this period with the teacher chosen above?
+                    Check all that apply:
+                    <br>
+                    <input type="checkbox" name="period" value="one"/>
+                    1
+                    <input type="checkbox" name="period" value="two"/>
+                    2
+                    <input type="checkbox" name="period" value="three"/>
+                    3
+                    <input type="checkbox" name="period" value="four"/>
+                    4
+                    <input type="checkbox" name="period" value="five"/>
+                    5
+                    <input type="checkbox" name="period" value="six"/>
+                    6
+                    <input type="checkbox" name="period" value="seven"/>
+                    7
+                    <input type="checkbox" name="period" value="eight"/>
+                    8
+                </p>
+                <p>What are you most excited for next year?
+                    Any feedback or comments to make your next year experience better?
+                    <textarea name="comments" cols="20" rows="4"
+                     placeholder="Enter your response, feedback, and comments">
+                    </textarea>
+                <input type="submit" value="Subscribe">
+                </p>
            </div>
 
 
-            <p>
-                Your favorite music genre:
-                <br />
-                <input type="radio" name="genre" value="rock" />
-                Rock
-                <input type="radio" name="genre" value="pop" />
-                Pop
-                <input type="radio" name="genre" value="jazz" />
-                Jazz
-            </p>
-            <p>
-                Music services you obtain and use:
-                <br />
-                <input type="checkbox" name="service" value="iTunes" />
-                iTunes
-                <input type="checkbox" name="service" value="Last.fm" />
-                Last.fm
-                <input type="checkbox" name="service" value="Spotify" />
-                Spotify
-            </p>
-            <p>
-                What type of device do you use to listen to your music the most?
-                <select name="devices">
-                    <option value="iPod">IPod</option>
-                    <option value="radio">Radio</option>
-                    <option value="PC">Computer(Personal Computer)</option>
-                    <option value="IPhone">Phone</option>
-                </select>
-            </p>
-            <p>
-                Upload the sing you prefer in MP3 format into this box.
-                <input type="file" name="user-song"/>
-                <input type="submit" value="Upload"/>
-            </p>
-            <p>
-                Subscribe to our email list:
-        
-            <input type="email" name="email"/>
-            <input type="submit" value="Subscribe"/>
-            </p>
-            <p>
-                Last day of classes:
-                <input type="date" name="depart">
-                <input type="submit" value="Submit">
-            </p>
         </form>
     </body>
 </html>
