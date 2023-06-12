@@ -12,3 +12,9 @@ p{color:forestgreen}
 p.importance{
     color:brown
 }
+input.submit {
+    color: rgb(219, 19, 19);
+}input.submit:hover{
+    background-color:rgb(220, 245, 221);
+    color:blue;
+}
