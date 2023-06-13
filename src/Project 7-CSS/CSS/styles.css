@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: bisque;
+    background-color: navy;
 }
 
 h1,h2{
@@ -17,4 +17,7 @@ input.submit {
 }input.submit:hover{
     background-color:rgb(220, 245, 221);
     color:blue;
+}
+p.Basic{
+    color:coral
 }
